@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/logoutMenu"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Cerrar sesión">
+    </item>
+
+    <item
+        android:id="@+id/mapsMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Ir a Uber Maps">
+    </item>
+    <item
+        android:id="@+id/reportIngresos"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Reporte de ingresos">
+    </item>
+    <item
+        android:id="@+id/reportTrayectos"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Reporte de trayectos">
+    </item>
+    <item
+        android:id="@+id/profileMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Perfil Conductor">
+    </item>
+    <item
+        android:id="@+id/datosconductor"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Registrar datos conductor">
+    </item>
+    <item
+        android:id="@+id/datosvehiculo"
+        android:orderInCategory="150"
+        app:showAsAction="never"
+        android:title="Registrar datos vehiculo">
+    </item>
+    <item
+        android:id="@+id/Updateperfil"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Actualizar perfil">
+    </item>
+    <item
+        android:id="@+id/refreshMenu"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Volver">
+    </item>
+
+</menu>

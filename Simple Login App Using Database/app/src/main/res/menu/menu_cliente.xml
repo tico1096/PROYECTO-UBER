@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/logoutMenu"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:title="Cerrar sesión">
+    </item>
+
+    <item
+        android:id="@+id/mapsMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Ir a Uber Maps">
+    </item>
+
+    <item
+        android:id="@+id/profileMenu"
+        android:orderInCategory="200"
+        app:showAsAction="never"
+        android:title="Perfil">
+    </item>
+    <item
+        android:id="@+id/calificacionDriver"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="Reporte de calificación">
+    </item>
+    <item
+        android:id="@+id/Updateperfil"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Actualizar perfil">
+    </item>
+    <item
+        android:id="@+id/refreshMenu"
+        android:orderInCategory="300"
+        app:showAsAction="never"
+        android:title="Volver">
+    </item>
+
+</menu>

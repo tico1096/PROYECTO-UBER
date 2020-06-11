@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Uber Proyect</string>
+    <string name="title_activity_gmuber">Uber Maps</string>
+    <string name="textNombre">Cedula:</string>
+    <string name="textCalificacion">Nombre</string>
+    <string name="URL_USUARIOS">http://192.168.0.208/developeruber/obtenerUsuarios.php</string>
+    <string name="URL_INGRESOS">http://192.168.0.208/developeruber/obtenerIngresos.php</string>
+    <string name="URL_TRAYECTOS">http://192.168.0.208/developeruber/obtenerTrayectoConductor.php</string>
+</resources>
